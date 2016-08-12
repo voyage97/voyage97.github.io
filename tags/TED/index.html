@@ -11,13 +11,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="format-detection" content="telephone=no" />
-<meta name="author" content="Kevin He" />
+<meta name="author" content="Kevin" />
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Voyage">
-<meta property="og:url" content="http://yoursite.com/categories/乱写/胡说/index.html">
+<meta property="og:url" content="https://voyage97.github.io/tags/TED/index.html">
 <meta property="og:site_name" content="Voyage">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Voyage">
@@ -52,7 +52,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Category: 胡说 | Voyage</title>
+<title>Tag: TED | Voyage</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -64,16 +64,18 @@
         isHome: false,
         isPost: false,
         isArchive: false,
-        isTag: false,
-        isCategory: true,
+        isTag: true,
+        isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: undefined
+        search: true
     }
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
 
 
 
@@ -95,11 +97,20 @@
             <img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/147082020196.jpg" class="animated zoomIn">
         </a>
         <hgroup>
-          <h1 class="header-author"><a href="/">Kevin He</a></h1>
+          <h1 class="header-author"><a href="/">Kevin</a></h1>
         </hgroup>
 
         
+        <p class="header-subtitle">Life is a voyage.</p>
+        
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -164,11 +175,17 @@
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
+                                <a class="fa 新浪微博" href="http://weibo.com" title="新浪微博"></a>
                             
-                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                                <a class="fa GitHub" href="http://github.com" title="GitHub"></a>
                             
-                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                                <a class="fa 知乎" href="http://www.zhihu.com/roundtable" title="知乎"></a>
+                            
+                                <a class="fa 豆瓣" href="https://www.douban.com/" title="豆瓣"></a>
+                            
+                                <a class="fa 网易云音乐" href="http://music.163.com/" title="网易云音乐"></a>
+                            
+                                <a class="fa bilibili" href="http://www.bilibili.com/index.html" title="bilibili"></a>
                             
                         </ul>
                     </nav>
@@ -177,7 +194,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/啦啦啦/">啦啦啦</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/TED/">TED</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/love/">love</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/黄山/">黄山</a></li></ul>
                     </div>
                 </section>
                 
@@ -192,6 +209,14 @@
                     
                       <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
                     
+                      <a class="main-nav-link switch-friends-link" href="http://806185901.qzone.qq.com">Qzone</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://www.ted.com">Ted</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://www.nasa.gov">NASA</a>
+                    
                     </div>
                 </section>
                 
@@ -200,7 +225,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">nothing</div>
+                    <div id="js-aboutme">A voyager in the immense world.</div>
                 </section>
                 
             </div>
@@ -212,7 +237,7 @@
       <nav id="mobile-nav">
       <div class="overlay">
           <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Kevin He</a></h1>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Kevin</a></h1>
       </div>
     <div class="intrude-less">
         <header id="header" class="inner">
@@ -220,8 +245,10 @@
                 <img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/147082020196.jpg" class="animated zoomIn">
             </a>
             <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">Kevin He</a></h1>
+              <h1 class="header-author"><a href="/" title="回到主页">Kevin</a></h1>
             </hgroup>
+            
+            <p class="header-subtitle">Life is a voyage.</p>
             
             <nav class="header-menu">
                 <ul>
@@ -240,11 +267,17 @@
             <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                                <a class="fa 新浪微博" target="_blank" href="http://weibo.com" title="新浪微博"></a>
                             
-                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                                <a class="fa GitHub" target="_blank" href="http://github.com" title="GitHub"></a>
                             
-                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                                <a class="fa 知乎" target="_blank" href="http://www.zhihu.com/roundtable" title="知乎"></a>
+                            
+                                <a class="fa 豆瓣" target="_blank" href="https://www.douban.com/" title="豆瓣"></a>
+                            
+                                <a class="fa 网易云音乐" target="_blank" href="http://music.163.com/" title="网易云音乐"></a>
+                            
+                                <a class="fa bilibili" target="_blank" href="http://www.bilibili.com/index.html" title="bilibili"></a>
                             
                         </ul>
             </nav>
@@ -278,20 +311,20 @@
          
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/08/10/first/">first</a>
+      <a class="archive-article-title" href="/2016/08/10/first/">七夕</a>
     </h1>
   
 
         <div class="article-info info-on-archive">
           
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/乱写/">乱写</a><a class="article-category-link" href="/categories/乱写/胡说/">胡说</a>
+    <a class="article-category-link" href="/categories/Festivals/">Festivals</a>
     </div>
 
 
           
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/啦啦啦/">啦啦啦</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TED/">TED</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/love/">love</a></li></ul>
     </div>
 
         </div>
@@ -312,7 +345,7 @@
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i> 
-                2016 Kevin He
+                2016 Kevin
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
@@ -361,6 +394,27 @@
 
 
 
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
 <div class="scroll" id="scroll">
