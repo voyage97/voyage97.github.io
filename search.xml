@@ -45,13 +45,20 @@
   
     
     <entry>
-      <title><![CDATA[ABOUT ME]]></title>
-      <url>https://voyage97.github.io/about/index.html</url>
-      <content type="html"><![CDATA[<h3 id="A-newcomer-in-GITHUB"><a href="#A-newcomer-in-GITHUB" class="headerlink" title="A newcomer in GITHUB."></a>A newcomer in GITHUB.</h3><h3 id="A-voyager-in-this-immense-world"><a href="#A-voyager-in-this-immense-world" class="headerlink" title="A voyager in this immense world."></a>A voyager in this immense world.</h3>]]></content>
+      <title><![CDATA[Categories]]></title>
+      <url>https://voyage97.github.io/categories/index.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[TAGS & CATEGORIES]]></title>
+      <title><![CDATA[About me]]></title>
+      <url>https://voyage97.github.io/about/index.html</url>
+      <content type="html"><![CDATA[<p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/147106346957.jpg" alt=""></p>
+<h4 id="A-newcomer-in-GITHUB"><a href="#A-newcomer-in-GITHUB" class="headerlink" title="A newcomer in GITHUB."></a>A newcomer in GITHUB.</h4><h4 id="A-voyager-in-this-immense-world"><a href="#A-voyager-in-this-immense-world" class="headerlink" title="A voyager in this immense world."></a>A voyager in this immense world.</h4>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Tags]]></title>
       <url>https://voyage97.github.io/tags/index.html</url>
       <content type="html"></content>
     </entry>
