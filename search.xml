@@ -34,15 +34,7 @@
 <p>讲道理，我用的16版matlab里边,默认布局右侧就是工作空间变量的详细属性，所以新版matlab应该很少用这两个命令。</p>
 <h2 id="系统预定义变量"><a href="#系统预定义变量" class="headerlink" title="系统预定义变量"></a>系统预定义变量</h2><p>pi:圆周率π<br>i:虚数单位<br>inf:无穷大(infinite)<br>nan:不定值(not-a-number)</p>
 <h1 id="Matlab基本运算"><a href="#Matlab基本运算" class="headerlink" title="Matlab基本运算"></a>Matlab基本运算</h1><p>这一标题我们主要说说matlab如何作为一只科学计算器来使用</p>
-<h2 id="数学运算符"><a href="#数学运算符" class="headerlink" title="数学运算符"></a>数学运算符</h2><ul>
-<li><ul>
-<li><ul>
-<li>/就不说了<br>a^b：a的b次方</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<h2 id="数学运算符"><a href="#数学运算符" class="headerlink" title="数学运算符"></a>数学运算符</h2><p>加减乘除就不说了，该怎么写就怎么写<br>a^b：a的b次方</p>
 <h2 id="复数的输入"><a href="#复数的输入" class="headerlink" title="复数的输入"></a>复数的输入</h2><p>z=a+bi<br>或者z=a+b*i<br>其中a,b为常数，i为虚数单位</p>
 <p>炒鸡简单是吧hhh</p>
 <h2 id="常用数学函数"><a href="#常用数学函数" class="headerlink" title="常用数学函数"></a>常用数学函数</h2><h3 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h3><p>sin,cos,tan,cot等正三角函数该怎么写怎么写<br><strong>反三角函数</strong>注意了！！注意了！！<br><strong>arcsin</strong>写作<strong>asin</strong><br>以此类比</p>
@@ -110,16 +102,16 @@
   
     
     <entry>
-      <title><![CDATA[Categories]]></title>
-      <url>https://voyage97.github.io/categories/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[About me]]></title>
       <url>https://voyage97.github.io/about/index.html</url>
       <content type="html"><![CDATA[<p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/147106346957.jpg" alt=""></p>
 <h4 id="A-newcomer-in-GITHUB"><a href="#A-newcomer-in-GITHUB" class="headerlink" title="A newcomer in GITHUB."></a>A newcomer in GITHUB.</h4><h4 id="A-voyager-in-this-immense-world"><a href="#A-voyager-in-this-immense-world" class="headerlink" title="A voyager in this immense world."></a>A voyager in this immense world.</h4>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Categories]]></title>
+      <url>https://voyage97.github.io/categories/index.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
