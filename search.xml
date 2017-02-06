@@ -4,9 +4,15 @@
   
     
     <entry>
+      <title><![CDATA[matlab-3]]></title>
+      <url>https://voyage97.github.io/2017/02/06/matlab-3/</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Matlab-矩阵基础、基本运算补充]]></title>
       <url>https://voyage97.github.io/2017/02/04/matlab-2/</url>
-      <content type="html"><![CDATA[<p>写完第一篇文章之后，我找到了另一本更为详实的书进行学习，所以这么长时间没有更（其实是偷懒出去浪了）。这一篇主要对第一篇中不完善的命令和系统函数进行补充,以便查询。<br>这本书也推荐给大家（点击打开百度云资源）<br><a id="more"></a><br><a href="http://pan.baidu.com/share/link?shareid=3023795646&amp;uk=1024111433&amp;app=zd" target="_blank" rel="external">《MATLAB完全自学一本通》,电子工业出版社</a></p>
+      <content type="html"><![CDATA[<p>写完第一篇文章之后，我找到了一本更为详实的书进行学习，所以这么长时间没有更（其实是偷懒出去浪了）。这一篇主要对第一篇中不完善的命令和系统函数进行补充,以便查询。<br>这本书也推荐给大家（点击打开百度云资源）<br><a id="more"></a><br><a href="http://pan.baidu.com/share/link?shareid=3023795646&amp;uk=1024111433&amp;app=zd" target="_blank" rel="external">《MATLAB完全自学一本通》,电子工业出版社</a></p>
 <h1 id="矩阵基础"><a href="#矩阵基础" class="headerlink" title="矩阵基础"></a>矩阵基础</h1><h2 id="构建特殊矩阵"><a href="#构建特殊矩阵" class="headerlink" title="构建特殊矩阵"></a>构建特殊矩阵</h2><p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/148627324064.png" alt=""></p>
 <h2 id="矩阵元素引用"><a href="#矩阵元素引用" class="headerlink" title="矩阵元素引用"></a>矩阵元素引用</h2><p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/148627323928.png" alt=""></p>
 <h2 id="矩阵形状信息查询"><a href="#矩阵形状信息查询" class="headerlink" title="矩阵形状信息查询"></a>矩阵形状信息查询</h2><p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/148627324001.png" alt=""></p>
@@ -117,19 +123,19 @@
     <entry>
       <title><![CDATA[About me]]></title>
       <url>https://voyage97.github.io/about/index.html</url>
-      <content type="html"><![CDATA[<p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/147106346957.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="http://cfomr.img48.wal8.com/img48/554649_20160810170849/148635939179.png" alt=""></p>
 <h4 id="A-newcomer-in-GITHUB"><a href="#A-newcomer-in-GITHUB" class="headerlink" title="A newcomer in GITHUB."></a>A newcomer in GITHUB.</h4><h4 id="A-voyager-in-this-immense-world"><a href="#A-voyager-in-this-immense-world" class="headerlink" title="A voyager in this immense world."></a>A voyager in this immense world.</h4>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Categories]]></title>
-      <url>https://voyage97.github.io/categories/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[Tags]]></title>
       <url>https://voyage97.github.io/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Categories]]></title>
+      <url>https://voyage97.github.io/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
